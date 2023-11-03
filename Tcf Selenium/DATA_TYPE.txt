@@ -1,0 +1,93 @@
+DATA TYPES
+----------
+
+ Data types is a  set of values and set of operation defined on those values
+
+TYPES:
+------
+    * PRIMITIVE
+    * NON- PRIMITIVE
+
+PRIMITIVE DATA TYPES    (IT IS BASED ON MEMORY REFERENCE)
+--------------------
+
+    * Variable can store one-value
+    * There is no additional methods
+    * predefined data types 
+
+      . byte                              
+      .short      eg -- 2455,-7848 
+      .int
+      .long----(end with "l") 75447l
+(Accept only whole number)
+
+       .float-----(end with "f")  454.25f
+       .double
+(accept only decimal)
+*boolean = (true or false)
+
+*char: Accept any singelchar /special char/ numeric values enclose with ('a') --->('')
+ASCII CODE
+
+RANGES
+------
+ 
+NOTE: 1 byte = 8 bit
+
+formula
+-------
+  -2^(n-1)to2^(n-1)-1
+ -2^(8-1)to2^(8-1)-1
+ -2^(7)to2^(7)-1
+ -2*2*2*2*2*2*2 to 2*2*2*2*2*2*2(-1)
+ -128to128-1
+ -128 to 127
+
+
+
+n = number of bits
+
+n= 8bites  
+
+Data types syntax
+-----------------
+
+data type  refname(Variable ) = value ;
+
+
+DIGITS       DATA TYPES    DEFAULT     SIZE         RANGE
+
+2                          byte                    0           1 byte      (-128 to 127)
+	
+4                        short                     0           2byte      ---------
+
+(8-9)                  int                          0           4 byte     ---------
+
+(15-16)           long                         0           8 byte      ---------
+
+ (0.6 - 0.7)        float                    0.0         4 byte      ----------float 
+
+(0.15 -0.16)    double                0.0          8 byte       ---------double
+
+(true /false)     boolean                false       2 byte       ----------
+                          String              null
+
+NON-PRIMITIVE DATA TYPES
+------------------------
+
+THE VARIABLE  CAN STORE MULTIPLE VALUE
+
+It is not predefined data type but it depends upon classes
+
+eg: String ,ARRAY
+
+
+
+
+
+
+
+
+
+ 
+
