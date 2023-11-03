@@ -1,0 +1,42 @@
+Java Day By Day Schedule :
+
+Day 1:	Java Intro , Installation
+
+Day 2: 	Sample Program , Access
+
+Day 3:	Package to Package , Oops Inheritance
+
+Day 4:	DataTypes , Method Overload
+
+Day 5:	Method Override , TypeCasting 
+
+Day 6:	Class Casting , Partial Abs
+
+Day 7:	Fully Abs , Multiple Inherit
+
+Day 8:	Variables , Scanner
+
+Day 9:	Operators , Forloop
+
+Day 10:	While , doWhile , if else
+
+Day 11:	Jump Statements , Switch , Keywords
+
+Day 12:	Array
+
+Day 13:	Memory , String Functions (18) 
+
+Day 14:	String Functions (4) ,String Types
+
+Day 15:	Collection 
+
+Day 16:	List
+
+Day 17:	Set
+
+Day 18:	Map
+
+Day 19:	Exception Handling
+
+Day 20:	UserDefined Exception
+
