@@ -20,7 +20,7 @@ public class DropDwon_SelectClass {
 		
 		WebElement findElement = driver.findElement(By.xpath("//a[@data-testid='open-registration-form-button']"));
 		findElement.click();
-		Thread.sleep(2000);
+		
 		
 		WebElement day = driver.findElement(By.id("day"));
 		Select s = new Select(day);
