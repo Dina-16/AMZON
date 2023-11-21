@@ -50,17 +50,31 @@ public class Amazon_Task2 {
 		driver.findElement(By.xpath("//span[contains(@class,'a-button a-button-primary attach')]//child::input[@type='submit']")).click();
 		Thread.sleep(1000);
 		
-//		driver.findElement(By.xpath("//input[@id='ap_email']")).sendKeys("Dinagaran@gmail.com");
-//		
-//		driver.findElement(By.className("a-button-input")).click();
-//		
-//		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Dina@1605");
-//		
-//		driver.findElement(By.xpath("//input[@id='signInSubmit']")).click();
-//		Thread.sleep(3000);
+		driver.findElement(By.xpath("//input[@id='ap_email']")).sendKeys("Dinagaran@gmail.com");
+		
+		driver.findElement(By.className("a-button-input")).click();
+		
+		driver.findElement(By.xpath("//input[@type='password']")).sendKeys("Dina@1605");
+		
+		driver.findElement(By.xpath("//input[@id='signInSubmit']")).click();
+		Thread.sleep(3000);
 		
 		driver.switchTo().window(li.get(0));
 		System.out.println(driver.getCurrentUrl());
+		
+		driver.findElement(By.xpath("//a[contains(@class,'a-link-normal s-underline')]//child::span[contains(text(),'iPhone 15 (128 GB) - Pink')]")).click();
+		////h2//span[text()='iPhone 15 (128 GB) - Pink']
+		Thread.sleep(5000);
+		System.out.println("Hi");
+		
+		Set<String> windowHandles1 = driver.getWindowHandles();
+		List<String> li1 = new ArrayList<String>(windowHandles1);
+		driver.switchTo().window(li1.get(1));
+		System.out.println(driver.getCurrentUrl());
+		
+		
+		
+
 	}
 
 }
